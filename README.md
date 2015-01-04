@@ -26,9 +26,9 @@ Add the directive in your html file like this:
   
 ```
 # Important parameters:
-* width: width of the container div
-* height: height of the container div
-* options: array of option names defined in your controller.
+* `width`: width of the container div
+* `height`: height of the container div
+* `options`: array of option names defined in your controller.
 
 
 

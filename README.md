@@ -6,8 +6,8 @@ No jquery dependency
 
 ##Dependency :-
 > gridDirective.js
-  gridDirective.css
-  gridTemplate.html
+> gridDirective.css
+> gridTemplate.html
 
 HOW TO USE IT
 

@@ -11,7 +11,7 @@ No jquery dependency
  
 > gridTemplate.html
 
-##HOW TO USE IT
+##How to use it:
 
 After including the angular.js file, add the gridDirective.js file and load the gridDirective.css file.
 And inject the gridDirective module into your application module like this:
@@ -25,7 +25,7 @@ Add the directive in your html file like this:
   <option-selection-grid width="1000px" height="500px" options="options"></option-selection-grid>
   
 ```
-# important parameters:
+# Important parameters:
 * width: width of the container div
 * height: height of the container div
 * options: array of option names defined in your controller.

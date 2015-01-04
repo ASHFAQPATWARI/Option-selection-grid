@@ -30,7 +30,11 @@ Add the directive in your html file like this:
 * `height`: height of the container div
 * `options`: array of option names defined in your controller.
 
+##Contribute: 
+Feel free to contribute and send pull requests.
 
+##License:
+OPTION-SELECTION-GRID is licensed unter MIT License.
 
 
 

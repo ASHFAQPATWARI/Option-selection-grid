@@ -1,0 +1,96 @@
+.options-selector{
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	top: 15px;
+	height: 75%;
+}
+
+.option-container{
+	box-sizing: border-box;
+	display: inline-block;
+	height: 45%;
+	padding: 8px;
+	/*padding: 1.5px;*/
+	position: relative;
+	vertical-align: top;
+	width: 25%;
+	background-color: #f3f3f3;
+}
+
+.option-container a{
+	border-radius: 2px;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+	display: block;
+	font-size: 0;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	white-space: nowrap;
+}
+
+.option-container .backdrop-white {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 2;
+}
+
+.option-container .backdrop-white, .option-container .option-link .option-name {
+	transition: all 0.2s ease 0s;
+}
+
+.option-container .option-link .option-backdrop {
+	background-color: rgba(0, 0, 0, 0.4);
+	background-repeat: repeat-x;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.option-container .option-link .option-name {
+	bottom: 75px;
+	box-sizing: border-box;
+	color: #fff;
+	display: inline-block;
+	font-size: 24px;
+	left: 0;
+	margin-bottom: 15px;
+	position: absolute;
+	right: 0;
+	text-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+	vertical-align: bottom;
+	white-space: normal;
+	width: 100%;
+	z-index: 2;
+}
+
+.option-container .option-link .option-image {
+	background-image: url(background.jpg);
+	background-size: 100% 100%;
+	bottom: 0;
+	display: inline-block;
+	/*height: 145px;*/
+	height: 100%;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	vertical-align: middle;
+	/*width: 216px;*/
+}
+
+.option-container .option-link:hover .option-name, .option-container .option-link:focus .option-name {
+	transform: scale(1.1) translateY(-5px);
+}
+.option-container .option-link:hover .backdrop-white, .option-container .option-link:focus .backdrop-white {
+	opacity: 1;
+}

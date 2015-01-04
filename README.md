@@ -5,9 +5,9 @@ Angular directive for Option selection grid. version: 0.01
 No jquery dependency
 
 ##Dependency :-
-1. gridDirective.js
-2. gridDirective.css
-3. gridTemplate.html
+> gridDirective.js
+  gridDirective.css
+  gridTemplate.html
 
 HOW TO USE IT
 

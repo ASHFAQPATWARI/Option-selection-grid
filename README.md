@@ -6,8 +6,10 @@ No jquery dependency
 
 ##Dependency :-
 > gridDirective.js
-  gridDirective.css
-  gridTemplate.html
+
+> gridDirective.css
+ 
+> gridTemplate.html
 
 ##HOW TO USE IT
 
@@ -18,6 +20,7 @@ And inject the gridDirective module into your application module like this:
 
 You can keep the background image wherever suitable for you and change the background url in the gridDirective.css file (line 77).
 
+Add the directive in your html file like this:
 ```
   <option-selection-grid width="1000px" height="500px" options="options"></option-selection-grid>
   

@@ -25,7 +25,10 @@ Add the directive in your html file like this:
   <option-selection-grid width="1000px" height="500px" options="options"></option-selection-grid>
   
 ```
-
+* important parameters:
+* width: width of the container div
+* height: height of the container div
+* options: array of option names defined in your controller.
 
 
 

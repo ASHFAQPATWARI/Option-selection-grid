@@ -27,7 +27,6 @@ You can keep the background image wherever suitable for you and change the backg
 Add the directive in your html file like this:
 ```
   <option-selection-grid width="1000px" height="500px" options="options"></option-selection-grid>
-  
 ```
 # Important parameters:
 * `width`: width of the container div

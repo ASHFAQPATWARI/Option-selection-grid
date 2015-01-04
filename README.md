@@ -4,6 +4,10 @@ Option-selection-grid
 Angular directive for Option selection grid. version: 0.01
 No jquery dependency
 
+##Demo:
+
+[Option-Selection-Grid demo] (http://plnkr.co/edit/COdVlbf1MA0DW978dHTH?p=preview)
+
 ##Dependency :-
 > gridDirective.js
 

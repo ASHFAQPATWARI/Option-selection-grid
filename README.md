@@ -17,7 +17,7 @@ No jquery dependency
 
 ##How to use it:
 
-After including the angular.js file, add the gridDirective.js file and load the gridDirective.css file.
+After including the `angular.js` file, add the `gridDirective.js` file and load the `gridDirective.css` file.
 And inject the gridDirective module into your application module like this:
 
    ` angular.module("yourApp", ['OptionsGrid']);`
